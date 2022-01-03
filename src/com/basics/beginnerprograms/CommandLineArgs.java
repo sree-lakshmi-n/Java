@@ -1,6 +1,6 @@
 // Playing with Commandline arguments
 
-package com.zs.beginnerprograms;
+package com.basics.beginnerprograms;
 
 import java.util.Scanner;
 
