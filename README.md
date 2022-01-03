@@ -6,8 +6,9 @@
 
 # About #
 
-Hello :blush:
+Hello :blush:<br>
 This repo is a collection of programs I did in Java to learn and practice it.
+
 
 # Contact #
 
