@@ -1,3 +1,5 @@
+// Checks whether the given character is a vowel
+
 package com.basics.beginnerprograms;
 
 import java.util.Scanner;
