@@ -1,4 +1,4 @@
-// Checks whether the given character is a vowel
+/* Checks whether the given character is a vowel */
 
 package com.basics.beginnerprograms;
 
