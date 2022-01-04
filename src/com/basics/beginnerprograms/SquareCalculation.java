@@ -1,4 +1,4 @@
-// Program to calculate square of a given number
+// Program to calculate square of a given number.
 
 package com.basics.beginnerprograms;
 
