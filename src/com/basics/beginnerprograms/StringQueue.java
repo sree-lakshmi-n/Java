@@ -3,7 +3,6 @@
 package com.basics.beginnerprograms;
 
 import java.util.LinkedList;
-import java.util.Scanner;
 public class StringQueue{
     LinkedList queue;
     public StringQueue(){
