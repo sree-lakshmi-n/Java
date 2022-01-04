@@ -4,7 +4,6 @@ package com.basics.beginnerprograms;
 
 import java.util.Arrays;
 
-//Array practice
 public class Tango {
     private void doubleQuotes(){
         int[] print = new int[]{0,1,2,3,4,5};
