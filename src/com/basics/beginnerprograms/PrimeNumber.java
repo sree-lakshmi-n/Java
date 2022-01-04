@@ -1,4 +1,4 @@
-// Checks whether given number is prime or not
+// Checks whether given number is prime or not.
 
 package com.basics.beginnerprograms;
 
