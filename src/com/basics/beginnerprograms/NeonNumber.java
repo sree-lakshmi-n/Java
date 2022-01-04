@@ -1,4 +1,4 @@
-// Checks whether given number is a neon number or not
+/* Checks whether given number is a neon number or not */
 
 package com.basics.beginnerprograms;
 
