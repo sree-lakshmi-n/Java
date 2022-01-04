@@ -2,7 +2,7 @@ package com.basics.beginnerprograms;
 
 import java.util.Arrays;
 
-// Pass By Reference
+/* Pass By Reference */
 /* Arrays are always passed by reference. Hence, after the function call is over,
     array values change in main function. => Formal and Actual parameters change.
     Reference variables (non-primitive) always pass by reference.
