@@ -41,11 +41,20 @@ public class PassByReference {
         System.out.println(Arrays.toString(tempArr));
 
         /************************************************************/
-        /* String isn't primitive. It is also passed as reference. */
+        /*  String isn't primitive. It is also passed as reference.
+            Strings are objects. They're assigned to reference variables.
+            But, strings are immutable. It can't change by its own.
+            Hence, behave as pass by value.
+        */
 
         String actualStr = "Hi";
         System.out.println(actualStr);
         au.updateString(actualStr);
         System.out.println(actualStr);
+
+        String actualString = new String("Feliz Navidad");
+        System.out.println(actualString);
+        au.updateString(actualString);
+        System.out.println(actualString);
     }
 }
