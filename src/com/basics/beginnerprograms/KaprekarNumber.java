@@ -1,4 +1,5 @@
 /*
+  Kaprekar Number
 * A Kaprekar number is a number whose square when divided into two parts and
 * such that sum of parts is equal to the original number and none of the parts
 * has value 0.
