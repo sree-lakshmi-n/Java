@@ -12,7 +12,7 @@ public class TypeCasting {
         byte num2 = (byte)129;
         System.out.println("Overflow with typecasting: "+num2);
         // Overflow with typecasting: -127
-        // it'll wrap around the value
+        // It'll wrap around the value
 
         int data = 128;
         byte res = (byte) data ; // value is -128
