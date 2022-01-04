@@ -1,6 +1,6 @@
 package com.basics.beginnerprograms;
 
-// Pass By Value
+/* Pass By Value */
 /* Variables are passed by value. Hence, after the function call is over, variable value remains
 *  the same in main function. => Formal parameter changes are not reflected in actual parameters.
 * Primitive data types always pass by value.
