@@ -1,3 +1,5 @@
+// Finds the index, if any, which splits the given array to equal sum parts
+
 package com.codewars;
 
 import java.util.Arrays;
