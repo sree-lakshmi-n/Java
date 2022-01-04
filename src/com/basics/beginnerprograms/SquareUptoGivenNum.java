@@ -2,9 +2,7 @@
 
 package com.basics.beginnerprograms;
 
-import java.lang.Object;
-import java.lang.String;
-import java.lang.System;
+import java.lang.*;
 import java.util.Scanner;
 
 public class SquareUptoGivenNum {
