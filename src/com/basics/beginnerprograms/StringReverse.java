@@ -1,4 +1,4 @@
-// Reverses the given dtring without using the inbuilt function.
+// Reverses the given string without using the inbuilt reverse function.
 
 package com.basics.beginnerprograms;
 
