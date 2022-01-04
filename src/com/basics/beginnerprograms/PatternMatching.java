@@ -1,5 +1,7 @@
-// Checks whether a particular string is there in a given paragraph.
-// If present, it returns the position(s) of that string.
+/*
+ Checks whether a particular string is there in a given paragraph.
+ If present, it returns the position(s) of that string.
+*/
 
 package com.basics.beginnerprograms;
 
