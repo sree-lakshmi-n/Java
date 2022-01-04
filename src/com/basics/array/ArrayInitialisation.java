@@ -16,7 +16,6 @@ public class ArrayInitialisation {
         float floatArr[];
         double doubleArr[];
         Object objArr[];
-        
         ArrayInitialisation []classArr;
     }
 }
