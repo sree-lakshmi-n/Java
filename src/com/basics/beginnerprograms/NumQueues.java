@@ -3,7 +3,7 @@
 package com.basics.beginnerprograms;
 
 import java.util.LinkedList;
-import java.util.Scanner;
+
 public class NumQueues{
     LinkedList queue;
     public NumQueues(){
