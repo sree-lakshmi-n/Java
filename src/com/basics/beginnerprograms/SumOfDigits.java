@@ -1,4 +1,4 @@
-// Returns sum of digits of the given number
+// Returns sum of digits of the given number.
 
 package com.basics.beginnerprograms;
 
