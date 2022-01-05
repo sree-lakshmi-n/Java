@@ -1,3 +1,4 @@
+// Equal sides of an array: https://www.codewars.com/kata/5679aa472b8f57fb8c000047
 // Finds the index, if any, which splits the given array to equal sum parts
 
 package com.codewars;
