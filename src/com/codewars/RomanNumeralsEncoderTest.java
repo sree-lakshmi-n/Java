@@ -56,7 +56,7 @@ class Conversion {
 
     public String solution(int n) {
         StringBuilder sb = new StringBuilder();
-        int numLen = new Integer(n).toString().length();
+        int numLen = Integer.toString(n).length();
         int rem;
         for(int i=0; i<=(numLen-1); i++){
             rem = n%10;
