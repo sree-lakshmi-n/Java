@@ -6,7 +6,7 @@ Simple Encryption - Alternating Split
  https://www.codewars.com/kata/57814d79a56c88e3e0000786/train/java
 */
 
-package com.codewars;
+package com.codewars.sixkyu;
 
 public class SimpleEncryptionAlternatingSplitTest {
     public static void main(String[] args) {

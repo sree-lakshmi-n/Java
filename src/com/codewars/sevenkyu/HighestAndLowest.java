@@ -3,6 +3,7 @@ Highest and Lowest
 * Returns the highest and lowest number
 * https://www.codewars.com/kata/554b4ac871d6813a03000035
 * */
+package com.codewars.sevenkyu;
 
 import java.util.Arrays;
 

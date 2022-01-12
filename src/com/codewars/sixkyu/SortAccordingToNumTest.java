@@ -5,7 +5,7 @@
  https://www.codewars.com/kata/55c45be3b2079eccff00010f
 */
 
-package com.codewars;
+package com.codewars.sixkyu;
 
 public class SortAccordingToNumTest {
     public static void main(String[] args) {

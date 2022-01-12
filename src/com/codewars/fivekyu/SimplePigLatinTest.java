@@ -5,7 +5,7 @@
  * https://www.codewars.com/kata/520b9d2ad5c005041100000f
 * */
 
-package com.codewars;
+package com.codewars.fivekyu;
 
 public class SimplePigLatinTest {
     public static void main(String[] args) {

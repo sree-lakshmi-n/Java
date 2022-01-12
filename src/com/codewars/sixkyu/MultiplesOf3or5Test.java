@@ -4,7 +4,7 @@
  https://www.codewars.com/kata/514b92a657cdc65150000006
 */
 
-package com.codewars;
+package com.codewars.sixkyu;
 
 public class MultiplesOf3or5Test {
     public static void main(String[] args) {

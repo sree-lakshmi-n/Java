@@ -3,7 +3,7 @@
 * https://www.codewars.com/kata/51b62bf6a9c58071c600001b
 * */
 
-package com.codewars;
+package com.codewars.sixkyu;
 
 public class RomanNumeralsEncoderTest {
     public static void main(String[] args) {

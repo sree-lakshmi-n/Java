@@ -5,7 +5,7 @@
 * https://www.codewars.com/kata/526571aae218b8ee490006f4/train/java
 * */
 
-package com.codewars;
+package com.codewars.sixkyu;
 
 public class BitCountingTest {
     public static void main(String[] args) {

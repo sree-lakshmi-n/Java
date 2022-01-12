@@ -1,7 +1,7 @@
 //Disemvowel Trolls: https://www.codewars.com/kata/52fba66badcd10859f00097e/java
 //Removing vowels from given string
 
-package com.codewars;
+package com.codewars.sevenkyu;
 
 class DisemvowelTrolls{
     // To check whether given char is vowel or not
