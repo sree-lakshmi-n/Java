@@ -1,7 +1,7 @@
 
 <br>
 <div align="center">
-    <img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/java_93883.png" alt="Java Logo" width="150" height="150">
+    <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png" alt="Java Logo" width="150" height="150">
 </div>
 <br>
 
