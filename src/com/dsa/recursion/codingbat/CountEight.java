@@ -7,7 +7,7 @@
 * digit (126 / 10 is 12).
 * https://codingbat.com/prob/p192383
 * */
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class CountEight {
     public int count8(int n) {
