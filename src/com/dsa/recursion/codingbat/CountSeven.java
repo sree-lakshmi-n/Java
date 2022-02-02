@@ -6,7 +6,7 @@
  * while divide (/) by 10 removes the rightmost digit (126 / 10 is 12).
  * https://codingbat.com/prob/p101409
  * */
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class CountSeven {
     public int count7(int n) {
