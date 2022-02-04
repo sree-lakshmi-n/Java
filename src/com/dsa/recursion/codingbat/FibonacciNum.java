@@ -1,5 +1,5 @@
 // Returns the nth fibonacci number
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class FibonacciNum {
     public int fibonacci(int n) {
