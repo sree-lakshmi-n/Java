@@ -5,14 +5,13 @@
 * blocks in such a triangle with the given number of rows.
 * https://codingbat.com/prob/p194781
 * */
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class Triangle {
     public int triangle(int rows) {
         if(rows == 1 || rows == 0) return rows;
         return rows + triangle(rows-1);
     }
-
     public static void main(String[] args) {
         Triangle tri = new Triangle();
         for (int i = 0; i <= 10; i++) {
