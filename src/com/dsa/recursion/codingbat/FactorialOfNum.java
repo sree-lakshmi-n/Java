@@ -1,5 +1,5 @@
 // Prints factorial of numbers from 1 to 20 using recursion
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class FactorialOfNum {
     public long getFactorial(int num){
