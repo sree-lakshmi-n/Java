@@ -1,5 +1,5 @@
 /* Finds sum of digits of given number using recursion */
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class SumDigits {
     public int sumDigits(int n) {
