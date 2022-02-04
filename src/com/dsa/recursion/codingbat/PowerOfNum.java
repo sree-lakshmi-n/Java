@@ -1,5 +1,5 @@
 // Exponent operation using recursion
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class PowerOfNum {
     public long findPower(long base, long power){
@@ -7,7 +7,6 @@ public class PowerOfNum {
         if(power == 1) return base;
         return base*findPower(base,power-1);
     }
-
     public static void main(String[] args) {
         PowerOfNum pn = new PowerOfNum();
         for (int i = 0; i <= 10; i++) {
