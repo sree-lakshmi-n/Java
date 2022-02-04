@@ -1,5 +1,5 @@
 // finding square of a number using recursion
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class SquareOfNum {
     public long findSquare(long base){
@@ -10,7 +10,6 @@ public class SquareOfNum {
         if(base == 1 || base == 0) return base;
         return findSquare(base-1) + 2*base - 1;
     }
-
     public static void main(String[] args) {
         SquareOfNum sq = new SquareOfNum();
         for (int i = 0; i <= 30; i++) {
