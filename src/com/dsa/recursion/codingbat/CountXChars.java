@@ -2,7 +2,7 @@
 * Given a string, compute recursively (no loops) the number of lowercase 'x' chars in the string.
 * https://codingbat.com/prob/p170371
 * */
-package com.dsa.recursion;
+package com.dsa.recursion.codingbat;
 
 public class CountXChars {
     public int countX(String str) {
