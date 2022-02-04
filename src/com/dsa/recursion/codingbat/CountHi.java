@@ -7,8 +7,8 @@ package com.dsa.recursion.codingbat;
 
 public class CountHi {
     public int countHi(String str) {
-        if(str.equals("")||str.length()==1) return 0;
-        if(str.charAt(0)=='h'&&str.charAt(1)=='i')
+        if(str.length()<=1) return 0;
+        if(str.startsWith("hi"))
             return 1+countHi(str.substring(2));
         return countHi(str.substring(1));
     }
