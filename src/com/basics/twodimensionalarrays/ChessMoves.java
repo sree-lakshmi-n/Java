@@ -1,4 +1,4 @@
-// Shows moves possible for bishop, rook, knight , and queen for given position of the chess piece
+// Shows possible moves for bishop, rook, knight , and queen for given position of the chess piece
 package com.basics.twodimensionalarrays;
 
 import java.util.Scanner;
