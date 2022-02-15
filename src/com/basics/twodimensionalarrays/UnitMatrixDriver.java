@@ -1,35 +1,34 @@
 // Checks whether the given matrix is a unit matrix
 package com.basics.twodimensionalarrays;
 
-public class UnitMatrix {
+class UnitMatrix {
     int[][] arr;
-    UnitMatrix(){
+    /* Constructor Overloading */
+    UnitMatrix() {              // Non-parameterized constructor
         arr = new int[3][3];
     }
-    UnitMatrix(int size){
+    UnitMatrix(int size) {      // Parameterized constructor
         arr = new int[size][size];
     }
-    UnitMatrix(int row, int col){
+    UnitMatrix(int row, int col) {  // Parameterized constructor
         arr = new int[row][col];
     }
-    UnitMatrix(int[][] arr){
+    UnitMatrix(int[][] arr) {       // Parameterized constructor
         this.arr = arr;
     }
-    public boolean isUnitMatrix(){
-        boolean isUnit = false;
+    public boolean isUnitMatrix() {     // Checks whether given matrix is unit matrix
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i].length!= arr.length)
+            if (arr[i].length != arr.length)    // checks if no. of cols = no. of rows
                 return false;
-            for(int j = 0; j< arr[0].length; j++){
-                if(i==j)
-                    isUnit = (arr[i][j] == 1)? true: false;
-                else
-                    isUnit = (arr[i][j] == 0)? true: false;
+            for (int j = 0; j < arr[0].length; j++) {
+                if (i == j) {
+                    if (arr[i][j] != 1) return false;       // Every diagonal element should be 1
+                } else if (arr[i][j] != 0) return false;   // Every non diagonal element should be 0
             }
         }
-        return isUnit;
+        return true;
     }
-    public void printArr(){
+    public void printArr(){             // Prints the array
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j]+" ");
@@ -37,6 +36,8 @@ public class UnitMatrix {
             System.out.println();
         }
     }
+}
+public class UnitMatrixDriver{      // Driver class to test functionality of UnitMatrix class
     public static void main(String[] args) {
         UnitMatrix un1 = new UnitMatrix();
         System.out.println("Matrix 1");
