@@ -17,7 +17,6 @@ public class FitInDataType {
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter number of testcases");
             int t = sc.nextInt();
-            int[] res = new int[t];
             System.out.println("Enter the maximum value of your data type and then " +
                     "the value you want to store with a space in between.");
             for(int i=0; i<t; i++){
