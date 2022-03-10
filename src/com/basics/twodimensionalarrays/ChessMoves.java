@@ -1,6 +1,8 @@
 // Shows possible moves for bishop, rook, knight , and queen for given position of the chess piece
 package com.basics.twodimensionalarrays;
 
+import com.helpercodes.ConsoleColors;
+
 import java.util.Scanner;
 
 public class ChessMoves {
@@ -103,28 +105,28 @@ public class ChessMoves {
         System.out.println("What should be your chess piece's y-position? (from 0 to 7)");
         int y = sc.nextInt();
         if(cm.isValid(x) && cm.isValid(y)){
-            System.out.println("Your chess piece on the board \n");
+            System.out.println(ConsoleColors.BLUE_BOLD+"\nYour chess piece on the board \n"+ConsoleColors.RESET);
             cm.chessPiecePosition(x,y);
             cm.printArr();
-            System.out.println("========================");
-            System.out.println("\nBishop Moves \n");
+            System.out.println(ConsoleColors.PURPLE+"========================");
+            System.out.println(ConsoleColors.BLUE_BOLD+"\nBishop Moves \n"+ConsoleColors.RESET);
             cm.bishopMoves(x,y);
             cm.putBishopPosition(x,y);
             cm.printArr();
-            System.out.println("========================");
-            System.out.println("\nRook Moves \n");
+            System.out.println(ConsoleColors.PURPLE+"========================");
+            System.out.println(ConsoleColors.BLUE_BOLD+"\nRook Moves \n"+ConsoleColors.RESET);
             cm.reset();
             cm.rookMoves(x,y);
             cm.putRookPosition(x,y);
             cm.printArr();
-            System.out.println("========================");
-            System.out.println("\nKnight Moves \n");
+            System.out.println(ConsoleColors.PURPLE+"========================");
+            System.out.println(ConsoleColors.BLUE_BOLD+"\nKnight Moves \n"+ConsoleColors.RESET);
             cm.reset();
             cm.knightMoves(x,y);
             cm.putKnightPosition(x,y);
             cm.printArr();
-            System.out.println("========================");
-            System.out.println("\nQueen Moves \n");
+            System.out.println(ConsoleColors.PURPLE+"========================");
+            System.out.println(ConsoleColors.BLUE_BOLD+"\nQueen Moves \n"+ConsoleColors.RESET);
             cm.reset();
             cm.rookMoves(x,y);
             cm.bishopMoves(x,y);
