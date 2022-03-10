@@ -40,6 +40,7 @@ public class SymmetricMatrixDriver{         // Tester class
         int[][] arr4 = new int[][]{{3,5,8},{3,4,7},{8,5,3}};
         int[][] arr5 = new int[][]{};
         int[][] arr6 = new int[][]{{1,2},{3,4,5}};
+        int[][] arr7 = new int[][]{{2,3,6},{3,4,5},{6,5,9}};
         SymmetricMatrix sm1 = new SymmetricMatrix(arr1);
         sm1.printArr();
         System.out.println(sm1.isSymmetricMatrix());
@@ -58,5 +59,8 @@ public class SymmetricMatrixDriver{         // Tester class
         SymmetricMatrix sm6 = new SymmetricMatrix(arr6);
         sm6.printArr();
         System.out.println(sm6.isSymmetricMatrix());
+        SymmetricMatrix sm7 = new SymmetricMatrix(arr7);
+        sm7.printArr();
+        System.out.println(sm7.isSymmetricMatrix());
     }
 }
