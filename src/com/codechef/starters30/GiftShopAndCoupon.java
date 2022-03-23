@@ -17,25 +17,20 @@ public class GiftShopAndCoupon {
                 int k = sc.nextInt();
                 int[] A = new int[n];
                 int max = -1;
-                int result = 0;
+                int result = n;
                 for (int j = 0; j < n; j++){
                     A[j] = sc.nextInt();
                 }
                 Arrays.sort(A);
                 int sum = 0;
                 for (int j = 0; j < n; j++){
-                    sum += A[j];
-                    result = j;
-                    if(sum > k){
-                        result--;
-                        sum -= A[j]/2;
-                        if(sum <=k)
-                            result++;
+                    if(sum + Math.ceil((float)A[j]/2) >k){
+                        result = j;
                         break;
                     }
-
+                    sum += A[j];
                 }
-                System.out.println(result+1);
+                System.out.println(result);
             }
         }
         catch(Exception e){
