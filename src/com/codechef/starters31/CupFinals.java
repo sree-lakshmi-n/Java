@@ -1,6 +1,7 @@
+// Cup Finals
+// https://www.codechef.com/START31D/problems/CRICUP
 package com.codechef.starters31;
 
-import java.util.Collections;
 import java.util.Scanner;
 
 public class CupFinals {
