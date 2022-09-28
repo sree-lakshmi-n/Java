@@ -23,6 +23,13 @@ public class BasicOperations {
         }
         return pdt;
     }
+    // to find the circumference and area of a circle with a given radius
+    private float[] circumferenceAndArea(float radius){
+        float[] circleProperties = new float[2];
+        circleProperties[0] = (float) (2*3.14*radius);
+        circleProperties[1] = (float) (3.14*radius*radius);
+        return circleProperties;
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -52,5 +59,7 @@ public class BasicOperations {
             numArr[i] = sc.nextFloat();
         }
         System.out.println("Product: "+bo.getProduct(numArr));
+        System.out.println("********* Circumference and Area ***************");
+        System.out.println("Enter radius");
     }
 }
