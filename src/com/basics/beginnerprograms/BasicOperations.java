@@ -13,7 +13,7 @@ public class BasicOperations {
     }
     // to find out the average of three integers
     private float getAverage(int num1, int num2, int num3){
-        return (num1+num2+num3)/3;
+        return (float)(num1+num2+num3)/3;
     }
     // to find the product of a set of real numbers
     private float getProduct(float[] numArr){
@@ -43,5 +43,14 @@ public class BasicOperations {
         System.out.println("Enter third number: ");
         int num3 = sc.nextInt();
         System.out.println("Average: "+bo.getAverage(num1,num2,num3));
+        System.out.println("********* Product of a set of real numbers ***************");
+        System.out.println("Enter number of real numbers in the set ");
+        int setLen = sc.nextInt();
+        float[] numArr = new float[setLen];
+        System.out.println("Enter real numbers one by one ");
+        for (int i = 0; i < numArr.length; i++) {
+            numArr[i] = sc.nextFloat();
+        }
+        System.out.println("Product: "+bo.getProduct(numArr));
     }
 }
