@@ -42,10 +42,14 @@ public class BasicOperations {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         BasicOperations bo = new BasicOperations();
-        System.out.println("********* Even/Odd ***************");
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
+        System.out.println("********* Even/Odd ***************");
         System.out.println(bo.evenOrOdd(num));
+        System.out.println("********* Multiple of 5 ***************");
+        System.out.println(bo.isMultipleOfFive(num));
+        System.out.println("********* Multiple of both 5 and 7 ***************");
+        System.out.println(bo.isMultipleOfFiveAndSeven(num));
         System.out.println("********* Celsius to Fahrenheit Converter ***************");
         System.out.println("Enter temperature in °C");
         float celsius = sc.nextFloat();
