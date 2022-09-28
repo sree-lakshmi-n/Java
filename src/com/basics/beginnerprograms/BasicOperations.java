@@ -27,5 +27,13 @@ public class BasicOperations {
         System.out.println("Enter temperature in °C");
         float celsius = sc.nextFloat();
         System.out.println(celsius+"°C = "+bo.CelsiusToFahrenheit(celsius)+"F");
+        System.out.println("********* Average of 3 numbers ***************");
+        System.out.println("Enter first number: ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter second number: ");
+        int num2 = sc.nextInt();
+        System.out.println("Enter third number: ");
+        int num3 = sc.nextInt();
+        System.out.println("Average: "+bo.getAverage(num1,num2,num3));
     }
 }
