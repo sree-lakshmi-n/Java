@@ -61,5 +61,8 @@ public class BasicOperations {
         System.out.println("Product: "+bo.getProduct(numArr));
         System.out.println("********* Circumference and Area ***************");
         System.out.println("Enter radius");
+        float radius = sc.nextFloat();
+        System.out.println("Circumference: "+bo.circumferenceAndArea(radius)[0]);
+        System.out.println("Area: "+bo.circumferenceAndArea(radius)[1]);
     }
 }
