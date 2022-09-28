@@ -30,6 +30,10 @@ public class BasicOperations {
         circleProperties[1] = (float) (3.14*radius*radius);
         return circleProperties;
     }
+    //  to check whether the given integer is a multiple of 5
+    private boolean isMultipleOfFive(int num){
+        return num%5==0;
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
