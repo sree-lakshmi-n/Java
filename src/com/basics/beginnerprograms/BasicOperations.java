@@ -15,6 +15,14 @@ public class BasicOperations {
     private float getAverage(int num1, int num2, int num3){
         return (num1+num2+num3)/3;
     }
+    // to find the product of a set of real numbers
+    private float getProduct(float[] numArr){
+        float pdt = 1;
+        for (int i = 0; i < numArr.length; i++) {
+            pdt *= numArr[i];
+        }
+        return pdt;
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
