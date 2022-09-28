@@ -11,6 +11,10 @@ public class BasicOperations {
     private float CelsiusToFahrenheit(float celsius){
         return (celsius*9/5)+32;
     }
+    // to find out the average of three integers
+    private float getAverage(int num1, int num2, int num3){
+        return (num1+num2+num3)/3;
+    }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
