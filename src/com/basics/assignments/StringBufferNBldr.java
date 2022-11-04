@@ -1,4 +1,4 @@
-package com.basics.Strings;
+package com.basics.assignments;
 
 import java.util.HashSet;
 import java.util.Scanner;
